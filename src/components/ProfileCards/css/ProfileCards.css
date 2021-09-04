@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+.profileCardsContainer {
+  margin-top: 80px;
+}
+.profileCardsBox {
+  background: transparent linear-gradient(288deg, #1a1d21 0%, #262627 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: -10px -10px 40px #ffffff33;
+  border-radius: 20px;
+}
+.circle {
+  background: transparent linear-gradient(180deg, #ff1111 0%, #ff8000 100%) 0%
+    0% no-repeat padding-box;
+  color: transparent;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.circle1 {
+  background: transparent linear-gradient(180deg, #00d4ff 0%, #005dff 100%) 0%
+    0% no-repeat padding-box;
+  color: transparent;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.circle2 {
+  background: transparent linear-gradient(180deg, #00ff6f 0%, #00ffc2 100%) 0%
+    0% no-repeat padding-box;
+
+  color: transparent;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.circle3 {
+  background: transparent linear-gradient(180deg, #a011ff 0%, #5d00ff 100%) 0%
+    0% no-repeat padding-box;
+  color: transparent;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.circleBox {
+  border-radius: 50%;
+  background: transparent linear-gradient(288deg, #1a1d21 0%, #262627 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: inset 20px 20px 28px #1a1d21, inset -20px -20px 28px #363a41;
+}
+.cardHeaderText {
+  color: #707070;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 650;
+  margin-left: 55px;
+}
+.profileCardText {
+  color: #707070;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 450;
+}
+.profileCardsBtn {
+  background: linear-gradient(145deg, #1c1f23, #171a1e);
+  box-shadow:  10px 10px 20px #0a0c0d,
+               -10px -10px 20px #2a2e35;
+  color: #ff4b08;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 40px;
+}
+.profileCardsBtn:hover {
+  color: #ff4b08;
+}
+.profileCardsBtn1 {
+  background: linear-gradient(145deg, #1c1f23, #171a1e);
+  box-shadow:  10px 10px 20px #0a0c0d,
+               -10px -10px 20px #2a2e35;
+  color: #0097ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 40px;
+}
+.profileCardsBtn1:hover {
+  color: #0097ff;
+}
+.profileCardsBtn2 {
+  background: linear-gradient(145deg, #1c1f23, #171a1e);
+  box-shadow:  10px 10px 20px #0a0c0d,
+               -10px -10px 20px #2a2e35;
+  color: #00ff91;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 40px;
+}
+.profileCardsBtn2:hover {
+  color: #00ff91;
+}
+.profileCardsBtn3 {
+  background: linear-gradient(145deg, #1c1f23, #171a1e);
+  box-shadow:  10px 10px 20px #0a0c0d,
+               -10px -10px 20px #2a2e35;
+  color: #7e08ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 40px;
+}
+.profileCardsBtn3:hover {
+  color: #7e08ff;
+}
+.profileCardsBtnBox {
+  margin-top: 85px;
+}
+@media only screen and (max-width: 1350px) {
+    .cardHeaderText{
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .profileCardsBtn{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn1{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn2{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn3{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardText{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1035px) {
+    .cardHeaderText{
+        margin-left: 12px;
+        font-size: 15px;
+    }
+    .profileCardsBtn{
+        font-size: 18px;
+        padding: 15px 15px;
+    }
+    .profileCardsBtn1{
+        font-size: 18px;
+        padding: 15px 15px;
+    }
+
+    .profileCardsBtn2{
+        font-size: 18px;
+        padding: 15px 15px;
+    }
+
+    .profileCardsBtn3{
+        font-size: 18px;
+        padding: 15px 15px;
+    }
+
+
+}
+@media only screen and (min-width: 768px) and (max-width:835px){
+    .cardHeaderText{
+        margin-left: 15px;
+        font-size: 13px;
+    }
+    .profileCardsBtn{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn1{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn2{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn3{
+        font-size: 15px;
+        padding: 15px 35px;
+    }
+    .profileCardText{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .cardHeaderText{
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    .profileCardsBtn{
+        font-size: 12px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn1{
+        font-size: 12px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn2{
+        font-size: 12px;
+        padding: 15px 35px;
+    }
+    .profileCardsBtn3{
+        font-size: 12px;
+        padding: 15px 35px;
+    }
+}

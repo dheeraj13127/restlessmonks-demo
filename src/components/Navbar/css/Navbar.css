@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+.navbar {
+  background-color: #1a1d21;
+}
+.navLogo {
+  width: 255px;
+  height: 125px;
+}
+.nav-link {
+  color: #ffb027;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 550;
+  font-size: 23px;
+}
+.nav-link:hover {
+  color: #ffb027;
+}
+.nav-item-cart {
+  background: linear-gradient(145deg, #1c1f23, #171a1e);
+  box-shadow:  10px 10px 20px #0a0c0d,
+               -10px -10px 20px #2a2e35;
+  border-radius: 253px;
+}
+.navbar-cart {
+  height: 42px;
+  width: 42px;
+}
+.nav-item {
+  margin-left: 25px;
+}
+@media only screen and (max-width: 768px) {
+  .navLogo {
+    width: 200px;
+    height: 75px;
+  }
+  .nav-link {
+    font-size: 17px;
+  }
+  .navbar-cart {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 382px) {
+  .navLogo {
+    width: 180px;
+    height: 55px;
+  }
+}

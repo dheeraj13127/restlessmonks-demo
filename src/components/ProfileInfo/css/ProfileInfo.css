@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+.profileInfoHeader{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.profileInfoAbout{
+    color: #707070;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 33px;
+}
+.profileInfoBtn{
+    background: linear-gradient(145deg, #1c1f23, #171a1e);
+    box-shadow:  10px 10px 20px #0a0c0d,
+                 -10px -10px 20px #2a2e35;
+color: #ffb027;
+font-family: "Montserrat", sans-serif;
+font-size: 25px;
+font-weight: 700;
+padding: 25px 55px;
+border-radius: 40px;
+
+}
+.profileInfoBtn:hover{
+    color: #ffb027;
+}
+.profileInfoBtnBox{
+    margin-top: 85px;
+}
+@media only screen and (max-width: 991px) {
+.profileInfoHeader{
+    font-size: 35px;
+}
+.profileInfoAbout{
+    font-size: 27px;
+}
+.profileInfoBtn{
+    font-size: 20px;
+}
+  }
+  @media only screen and (max-width: 768px) {
+    .profileInfoHeader{
+        font-size: 28px;
+    }
+    .profileInfoAbout{
+        font-size: 20px;
+    }
+    .profileInfoBtn{
+        font-size: 18px;
+    }
+      }
