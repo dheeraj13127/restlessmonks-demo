@@ -6,7 +6,7 @@ import "./css/Landing.css";
 
 function Landing() {
   return (
-    <div className="landingContainer mb-3">
+    <div className="landingContainer mb-5">
       <ProfileInfo />
       <ProfileCards />
       <ProfileAccounts />

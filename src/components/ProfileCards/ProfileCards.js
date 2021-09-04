@@ -12,7 +12,7 @@ function ProfileCards() {
                 <BsFillCircleFill className="circle" />
               </span>
               <h4 className="cardHeaderText text-start">
-                Followers/Following of 
+                Follower/Following of 
                 @any_User
               </h4>
             </span>
